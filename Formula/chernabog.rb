@@ -3,8 +3,9 @@
 class Chernabog < Formula
   desc "Spends spare coding-agent capacity on queued work across your repos"
   homepage "https://github.com/dataquail/chernabog"
-  version "0.3.0"
   license "MIT"
+
+  depends_on "gh"
 
   on_macos do
     on_arm do
@@ -28,8 +29,6 @@ class Chernabog < Formula
     end
   end
 
-  depends_on "gh"
-
   def install
     bin.install "chernabog"
   end
@@ -49,4 +48,3 @@ class Chernabog < Formula
     assert_match "chernabog v#{version}", shell_output("#{bin}/chernabog --version")
   end
 end
-
