@@ -9,23 +9,23 @@ class Chernabog < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.5.0/chernabog-v0.5.0-darwin-arm64.tar.gz"
-      sha256 "4e9b4bbcb67d7abca16f24953f55b68ee2e9a749afc7f30854b733fe9a9b0231"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.6.0/chernabog-v0.6.0-darwin-arm64.tar.gz"
+      sha256 "1514f8ed60fe6ba49561b4d0715ebc2cb41cfbceda68ceed2b790c8cd4900e5a"
     end
     on_intel do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.5.0/chernabog-v0.5.0-darwin-x64.tar.gz"
-      sha256 "1138e139dab4aa9a7180f5f0dd7e9649b42555b98e1685d10f84d8225cb64597"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.6.0/chernabog-v0.6.0-darwin-x64.tar.gz"
+      sha256 "cb045b4aea8b6fd6bb6b58ddc41b4acdfa1383dbff4dff33439ab3b7d0c19c7e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.5.0/chernabog-v0.5.0-linux-arm64.tar.gz"
-      sha256 "c9242a57441a85a106c0b82cf718eb116beddfe8f95966106147a5382862fa8c"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.6.0/chernabog-v0.6.0-linux-arm64.tar.gz"
+      sha256 "3fdef876dcf5a124a9513d7071916cdb1764bf73421c591b5d38d54533e2809e"
     end
     on_intel do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.5.0/chernabog-v0.5.0-linux-x64.tar.gz"
-      sha256 "243e4f32bb02a44fdea9c4c51467197a28ff6fe3e6c374de51c9600d4e497bf6"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.6.0/chernabog-v0.6.0-linux-x64.tar.gz"
+      sha256 "5cd39ffc6cde7362a61264d799e37d8407ef63ecf390d8e0857d2aa41489429a"
     end
   end
 
