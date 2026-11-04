@@ -1,7 +1,7 @@
 # Written by dataquail/chernabog's release workflow (scripts/homebrew-formula.ts).
 # Edits here are overwritten by the next release.
 class Chernabog < Formula
-  desc "Spends spare coding-agent capacity on queued work across your repos"
+  desc "Runs coding agents on schedules you set, across your repos"
   homepage "https://github.com/dataquail/chernabog"
   license "MIT"
 
@@ -9,23 +9,23 @@ class Chernabog < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.12.0/chernabog-v0.12.0-darwin-arm64.tar.gz"
-      sha256 "26cc59159436d45fc29c0c190562831b3e2ddb0420216e40274df921966b422a"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.13.0/chernabog-v0.13.0-darwin-arm64.tar.gz"
+      sha256 "d98357118d906d9d4da8a8a00c36e8523d7f2408323b6375254d57cabe6b984a"
     end
     on_intel do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.12.0/chernabog-v0.12.0-darwin-x64.tar.gz"
-      sha256 "2dff7a634edca6fc0e6eb72f39d60dfebb7ce687128114d8d691a149a72d328e"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.13.0/chernabog-v0.13.0-darwin-x64.tar.gz"
+      sha256 "e56a87ecd30b508fc021e37d8a27fea48bc9c31081c30af0d59c21a33cad01ba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.12.0/chernabog-v0.12.0-linux-arm64.tar.gz"
-      sha256 "a67d3a8167e34f22342ac258d7adb0277dca51056138aed8d8be20d981a1726b"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.13.0/chernabog-v0.13.0-linux-arm64.tar.gz"
+      sha256 "58ccdcae1171fb29e8fb128b9d2c4636608781df1d5b4dcca051946e541f4f56"
     end
     on_intel do
-      url "https://github.com/dataquail/chernabog/releases/download/v0.12.0/chernabog-v0.12.0-linux-x64.tar.gz"
-      sha256 "1963c3e5ba0d1f777fae40edf4ac933510562a8516422e61ba6d21d738bf26c7"
+      url "https://github.com/dataquail/chernabog/releases/download/v0.13.0/chernabog-v0.13.0-linux-x64.tar.gz"
+      sha256 "5acd852d7bedbaee7821485899962a991a0af020b9146905093ed7f0a18008b4"
     end
   end
 
